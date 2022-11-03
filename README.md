@@ -9,4 +9,4 @@
 
 ## Live Demo
 
-<a href = "#" >DEMO HERE!<a/>
+<a href = "https://zaiqa-restaurant-maanilverma.netlify.app" >DEMO HERE!<a/>
