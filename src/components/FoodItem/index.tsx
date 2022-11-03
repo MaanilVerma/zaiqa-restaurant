@@ -38,6 +38,7 @@ export const SingleFoodItem = ({
           alt={description}
           src={imageURL}
           onLoad={() => setImageLoaded(true)}
+          loading="lazy"
         />
         <Action food={item} admin={admin} />
       </div>

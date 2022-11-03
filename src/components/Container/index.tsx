@@ -26,7 +26,7 @@ const Container = ({
     }
   }, [scrollOffset]);
   const [{ user }] = useStateValue();
-  console.log(items);
+
   return (
     <motion.div
       ref={containerRef}
