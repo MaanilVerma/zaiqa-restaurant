@@ -3,14 +3,16 @@ import { getApp, getApps, initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
+//TODO: Hide Firebase Credentials
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCgoQ45vJ1GD75CRnsMc1cBqQ0DbO9qwZ8",
-  authDomain: "food-order-app-e73b6.firebaseapp.com",
-  projectId: "food-order-app-e73b6",
-  storageBucket: "food-order-app-e73b6.appspot.com",
-  messagingSenderId: "711806814510",
-  appId: "1:711806814510:web:9552dda5372946787352bf",
-  measurementId: "G-E4YB7S8C16",
+  apiKey: "AIzaSyDK-L8xLrwHEsCylgz3zLNnYlhnLbVC_7U",
+  authDomain: "food-order-6eacb.firebaseapp.com",
+  projectId: "food-order-6eacb",
+  storageBucket: "food-order-6eacb.appspot.com",
+  messagingSenderId: "306825112878",
+  appId: "1:306825112878:web:55d6d01aa99e99ca979ebf",
+  measurementId: "G-QN0SVT753X",
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
